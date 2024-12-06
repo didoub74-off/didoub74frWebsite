@@ -17,11 +17,7 @@ If you liked the project it's still nice to star the repo, and feel free to rob 
 
 ### Sources
 - [Stack Overflow](https://stackoverflow.com/) Obviously
+- Knowledge
 - [Developer Mozzila](https://developer.mozilla.org/) for specific properties CSS help 
 - [W3Schools](https://w3schools.com) for the same reason lol
 - [DaFont](https://dafont.com) for the font used ([airstrike.ttf](fonts/airstrike.ttf))
-Knowledge
-
-### Results ?
-For sure, click [here](https://didoub74-off.github.io/didoub74frWebsite/)
-![](./images/demo.png)
