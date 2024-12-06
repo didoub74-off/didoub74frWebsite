@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Didoub74</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="theme-orange" id="body">
+<a class="changeColorIcon" target="_blank">
+    <img class="social-icon" src="images/colorPalette.png" alt="colorPaletteIcon" onclick="changeBackground()">
+</a>
+<main id="main">
+    <div id="profile">
+        <img id="logo" src="images/didoub74.png" alt="logo">
+        <h1 id="pseudo">Didoub74</h1>
+        <p id="bio">I am a 17yo developer living in France. I am studying into technology <s style="font-size: 15px; color: #fff111">(surprising isn't it ?)</s> and I love to do web development. I also want to become an airline pilot. I also practice Sports (badminton in competition) and play a lot of Video Games (especially the F1 series).</p>
+        <p id="citation">Player by night, coder by day, Dreaming big in every way.</p>
+        <div id="socials">
+            <a href="https://discord.com/users/103443501801093941" target="_blank" class="skillIcon" id="discord">
+                <img src="https://cdn.simpleicons.org/discord/181717" alt="discord" class="social-icon">
+            </a>
+            <a href="https://github.com/didoub74-official" target="_blank" class="skillIcon" id="github">
+                <img src="https://cdn.simpleicons.org/github/181717" alt="github" class="social-icon">
+            </a>
+            <a href="https://x.com/Didoub74Off" target="_blank" class="skillIcon" id="twitter">
+                <img src="https://cdn.simpleicons.org/x/181717" alt="twitter" class="social-icon">
+            </a>
+        </div>
+    </div>
+    <div id="detail">
+        <div class="window">
+            <h2>Skills</h2>
+            <div class="skillsCategory">
+                <p class="skillsCategoryTitle">Web development</p>
+                <div class="skillsList">
+                    <a class="skillIcon" target="_blank">
+                        <img class="social-icon" src="https://cdn.simpleicons.org/html5/181717" alt="HTMLLogo">
+                    </a>
+                    <a class="skillIcon" target="_blank">
+                        <img class="social-icon" src="https://cdn.simpleicons.org/css3/181717" alt="CSSLogo">
+                    </a>
+                    <a class="skillIcon" target="_blank">
+                        <img class="social-icon" src="https://cdn.simpleicons.org/php/181717" alt="PHPLogo">
+                    </a>
+                    <a class="skillIcon" target="_blank">
+                        <img class="social-icon" src="https://cdn.simpleicons.org/mysql/181717" alt="MYSQLLogo">
+                    </a>
+                    <a class="skillIcon" target="_blank">
+                        <img class="social-icon" src="https://cdn.simpleicons.org/javascript/181717" alt="JSLogo">
+                    </a>
+                </div>
+            </div>
+            <div class="skillsCategory">
+                <p class="skillsCategoryTitle">Server Management</p>
+                <div class="skillsList">
+                    <a class="skillIcon" target="_blank">
+                        <img class="social-icon" src="https://cdn.simpleicons.org/ubuntu/181717" alt="UbuntuLogo">
+                    </a>
+                    <a class="skillIcon" target="_blank">
+                        <img class="social-icon" src="https://cdn.simpleicons.org/npm/181717" alt="NPMLogo">
+                    </a>
+                    <a class="skillIcon" target="_blank">
+                        <img class="social-icon" src="https://cdn.simpleicons.org/plesk/181717" alt="Plesk">
+                    </a>
+                </div>
+            </div>
+            <div class="skillsCategory">
+                <p class="skillsCategoryTitle">Other abilities</p>
+                <div class="skillsList">
+                    <a class="skillIcon" target="_blank">
+                        <img class="social-icon" src="https://cdn.simpleicons.org/python/181717" alt="PythonLogo">
+                    </a>
+                    <a class="skillIcon" target="_blank">
+                        <img class="social-icon" src="https://cdn.simpleicons.org/npm/181717" alt="UnityLogo">
+                    </a>
+                    <a class="skillIcon" target="_blank">
+                        <img class="social-icon" src="https://cdn.simpleicons.org/cplusplus/181717" alt="CppLogo">
+                    </a>
+                    <a class="skillIcon" target="_blank">
+                        <img class="social-icon" src="https://cdn.simpleicons.org/jetbrains/181717" alt="JetbrainsLogo">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="window">
+            <h2>Personal Project</h2>
+            <div id="projectContainer">
+                <div class="projectCard">
+                    <img src="images/quotesGeneratorScreenShot.png"  alt="Quotes Generator Screenshot"/>
+                    <div class="projectIconHolder">
+                        <div class="projectIconBackdrop">
+                            <img src="images/quotesIcon.png" alt="Quotes Icon" class="projectIcon">
+                        </div>
+                    </div>
+                    <a href="https://didoub74-off.github.io/QuotesGenerator/" class="projectCardHeader">
+                        <h3 class="projectTitle">Quotes Generator</h3>
+                        <div class="projectLinkIcon"></div>
+                    </a>
+                    <div class="projectTechnology">
+                        <a class="skillIcon" target="_blank">
+                            <img class="social-icon" src="https://cdn.simpleicons.org/html5/181717" alt="HTMLLogo">
+                        </a>
+                        <a class="skillIcon" target="_blank">
+                            <img class="social-icon" src="https://cdn.simpleicons.org/css3/181717" alt="CSSLogo">
+                        </a>
+                        <a class="skillIcon" target="_blank">
+                            <img class="social-icon" src="https://cdn.simpleicons.org/javascript/181717" alt="JSLogo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script>
+    const body = document.getElementById("body");
+    function changeBackground() {
+        if(body.classList.contains("theme-orange")) {
+            body.classList.remove("theme-orange");
+            body.classList.add("theme-purple-dark");
+        }else {
+            body.classList.add("theme-orange");
+            body.classList.remove("theme-purple-dark");
+        }
+    }
+</script>
+</body>
+</html>
